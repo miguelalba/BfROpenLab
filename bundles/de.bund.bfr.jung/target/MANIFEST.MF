@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.bund.bfr.jung;singleton:=true
+Export-Package: de.bund.bfr.jung,de.bund.bfr.jung.layout
+Bundle-Name: JUNG Utils
+Bundle-Version: 1.1.35.201810261327
+Require-Bundle: de.bund.bfr.knime;visibility:=reexport,edu.uci.ics.jun
+ g;visibility:=reexport
+Bundle-ManifestVersion: 2
+Bundle-Activator: de.bund.bfr.jung.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: German Federal Institute for Risk Assessment (BfR)
+

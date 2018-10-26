@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: de.bund.bfr.knime.gis.views.canvas.highlighting.ValueHighlightConditionTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in de.bund.bfr.knime.gis.views.canvas.highlighting.ValueHighlightConditionTest
+testCopy(de.bund.bfr.knime.gis.views.canvas.highlighting.ValueHighlightConditionTest)  Time elapsed: 0 sec
+testValueHighlightCondition(de.bund.bfr.knime.gis.views.canvas.highlighting.ValueHighlightConditionTest)  Time elapsed: 0 sec
+testGetValueRange(de.bund.bfr.knime.gis.views.canvas.highlighting.ValueHighlightConditionTest)  Time elapsed: 0.001 sec
+testGetValues(de.bund.bfr.knime.gis.views.canvas.highlighting.ValueHighlightConditionTest)  Time elapsed: 0 sec
+testValueHighlightConditionStringStringBooleanStringBooleanColorBooleanBooleanString(de.bund.bfr.knime.gis.views.canvas.highlighting.ValueHighlightConditionTest)  Time elapsed: 0 sec

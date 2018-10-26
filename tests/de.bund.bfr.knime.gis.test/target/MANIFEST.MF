@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.bund.bfr.knime.gis.test
+Bundle-Name: KNIME GIS Nodes Test
+Bundle-Version: 1.0.0.201810261327
+Bundle-ClassPath: .
+Require-Bundle: org.junit
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: German Federal Institute for Risk Assessment (BfR)
+Fragment-Host: de.bund.bfr.knime.gis
+

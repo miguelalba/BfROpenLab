@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.bund.bfr.knime.openkrise.db;singleton:=true
+Export-Package: de.bund.bfr.knime.openkrise.db,de.bund.bfr.knime.openk
+ rise.db.gui,de.bund.bfr.knime.openkrise.db.gui.dbtable,de.bund.bfr.kn
+ ime.openkrise.db.imports,de.bund.bfr.knime.openkrise.db.imports.custo
+ m.bfrnewformat,org.hsqldb,org.hsqldb.auth,org.hsqldb.dbinfo,org.hsqld
+ b.error,org.hsqldb.index,org.hsqldb.jdbc,org.hsqldb.jdbc.pool,org.hsq
+ ldb.lib,org.hsqldb.lib.java,org.hsqldb.lib.tar,org.hsqldb.map,org.hsq
+ ldb.navigator,org.hsqldb.persist,org.hsqldb.resources,org.hsqldb.resu
+ lt,org.hsqldb.rights,org.hsqldb.rowio,org.hsqldb.scriptio,org.hsqldb.
+ server,org.hsqldb.types,org.hsqldb.util
+Bundle-Name: DB-GUI
+Bundle-Version: 1.1.35.201810261327
+Bundle-ClassPath: .,lib/hsqldb.jar,lib/sqltool.jar,lib/addressParser-c
+ ommons-4.0-beta1.jar,lib/log4j-1.2.13.jar,lib/gisgraphy-commons-4.0-b
+ eta1.jar,lib/universalserialiser-3.0.jar,lib/universalserialiser-comm
+ ons-3.0.jar,lib/commons-lang3-3.7.jar,lib/commons-text-1.2.jar
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.co
+ re.resources,org.apache.poi.new,com.jgoodies,com.thoughtworks.xstream
+ ,quick.dbtable,de.bund.bfr.knime,de.bund.bfr.knime.openkrise.common
+Bundle-ManifestVersion: 2
+Bundle-Activator: de.bund.bfr.knime.openkrise.db.Activator
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: German Federal Institute for Risk Assessment (BfR)
+

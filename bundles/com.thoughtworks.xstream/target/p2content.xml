@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='com.thoughtworks.xstream' version='1.4.7' singleton='false'>
+    <update id='com.thoughtworks.xstream' range='[0.0.0,1.4.7)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='Xstream'/>
+      <property name='maven-groupId' value='de.bund.bfr.knime'/>
+      <property name='maven-artifactId' value='com.thoughtworks.xstream'/>
+      <property name='maven-version' value='1.4.7'/>
+    </properties>
+    <provides size='27'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.thoughtworks.xstream' version='1.4.7'/>
+      <provided namespace='osgi.bundle' name='com.thoughtworks.xstream' version='1.4.7'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.annotations' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.converters' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.converters.basic' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.converters.collections' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.converters.enums' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.converters.extended' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.converters.javabean' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.converters.reflection' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.core' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.core.util' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.io' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.io.binary' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.io.copy' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.io.json' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.io.naming' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.io.path' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.io.xml' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.io.xml.xppdom' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.mapper' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.persistence' version='0.0.0'/>
+      <provided namespace='java.package' name='com.thoughtworks.xstream.security' version='0.0.0'/>
+      <provided namespace='java.package' name='org.xmlpull.mxp1' version='0.0.0'/>
+      <provided namespace='java.package' name='org.xmlpull.v1' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='com.thoughtworks.xstream' version='1.4.7'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: com.thoughtworks.xstream&#xA;Bundle-Version: 1.4.7&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

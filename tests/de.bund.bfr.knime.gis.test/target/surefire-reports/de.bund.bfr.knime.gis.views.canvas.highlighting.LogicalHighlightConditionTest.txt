@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: de.bund.bfr.knime.gis.views.canvas.highlighting.LogicalHighlightConditionTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in de.bund.bfr.knime.gis.views.canvas.highlighting.LogicalHighlightConditionTest
+testLogicalHighlightConditionStringStringString(de.bund.bfr.knime.gis.views.canvas.highlighting.LogicalHighlightConditionTest)  Time elapsed: 0 sec
+testLogicalHighlightCondition(de.bund.bfr.knime.gis.views.canvas.highlighting.LogicalHighlightConditionTest)  Time elapsed: 0 sec
+testGetValues(de.bund.bfr.knime.gis.views.canvas.highlighting.LogicalHighlightConditionTest)  Time elapsed: 0.001 sec

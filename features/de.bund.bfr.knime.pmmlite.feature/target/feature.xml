@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.bund.bfr.knime.pmmlite.feature"
+      label="PMM-Lab Lite"
+      version="1.1.35.201810261327"
+      provider-name="German Federal Institute for Risk Assessment (BfR)">
+
+   <description url="http://www.example.com/description">
+      PMM-Lab Lite provides KNIME nodes for predictive microbiology.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Copyright (c) 2016 German Federal Institute for Risk Assessment (BfR),
+Germany
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+ 
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+ 
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &quot;http://www.gnu.org/licenses/&quot;.
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.emf.ecore.xmi" version="2.11.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.knime.base" version="3.2.0" match="greaterOrEqual"/>
+      <import plugin="com.google.guava" version="19.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.annotation" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.commons.math3"/>
+      <import plugin="org.knime.ext.jfreechart"/>
+      <import plugin="org.knime.ext.svg"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.emf.ecore" version="2.11.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="de.bund.bfr.knime.pmmlite.core"
+         download-size="68"
+         install-size="167"
+         version="1.1.35.201810261327"
+         unpack="false"/>
+
+   <plugin
+         id="de.bund.bfr.knime.pmmlite.io"
+         download-size="108"
+         install-size="214"
+         version="1.1.35.201810261327"
+         unpack="false"/>
+
+   <plugin
+         id="de.bund.bfr.knime.pmmlite.util"
+         download-size="87"
+         install-size="179"
+         version="1.1.35.201810261327"
+         unpack="false"/>
+
+   <plugin
+         id="de.bund.bfr.knime.pmmlite.views"
+         download-size="183"
+         install-size="373"
+         version="1.1.35.201810261327"
+         unpack="false"/>
+
+   <plugin
+         id="de.bund.bfr.knime"
+         download-size="59"
+         install-size="114"
+         version="1.1.35.201810261327"
+         unpack="false"/>
+
+   <plugin
+         id="de.bund.bfr.math"
+         download-size="66"
+         install-size="144"
+         version="1.1.35.201810261327"/>
+
+   <plugin
+         id="de.bund.bfr.knime.chart"
+         download-size="7"
+         install-size="11"
+         version="1.1.35.201810261327"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.poi.new"
+         download-size="10389"
+         install-size="12410"
+         version="3.11.0"/>
+
+   <plugin
+         id="de.bund.bfr.knime.pmmlite.core.generated"
+         download-size="111"
+         install-size="252"
+         version="1.1.35.201810261327"
+         unpack="false"/>
+
+   <plugin
+         id="de.bund.bfr.knime.pmmlite.core.types"
+         download-size="9"
+         install-size="14"
+         version="1.1.35.201810261327"
+         unpack="false"/>
+
+   <plugin
+         id="edu.umd.cs.findbugs.annotations"
+         download-size="60"
+         install-size="76"
+         version="3.0.1"/>
+
+   <plugin
+         id="org.sbml.jsbml"
+         download-size="5611"
+         install-size="6003"
+         version="1.1.0"/>
+
+</feature>

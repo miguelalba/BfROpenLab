@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.openstreetmap.josm' version='11826.0.0' singleton='false'>
+    <update id='org.openstreetmap.josm' range='[0.0.0,11826.0.0)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='JOSM'/>
+      <property name='maven-groupId' value='de.bund.bfr.knime'/>
+      <property name='maven-artifactId' value='org.openstreetmap.josm'/>
+      <property name='maven-version' value='11826.0.0'/>
+    </properties>
+    <provides size='104'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.openstreetmap.josm' version='11826.0.0'/>
+      <provided namespace='osgi.bundle' name='org.openstreetmap.josm' version='11826.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.gui.jmapviewer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.gui.jmapviewer.events' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.gui.jmapviewer.interfaces' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.gui.jmapviewer.tilesources' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.actions' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.actions.audio' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.actions.downloadtasks' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.actions.mapmode' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.actions.relation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.actions.search' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.actions.upload' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.command' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.command.conflict' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.corrector' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.cache' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.conflict' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.coor' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.correction' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.gpx' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.imagery' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.notes' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.oauth' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.osm' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.osm.event' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.osm.history' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.osm.visitor' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.osm.visitor.paint' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.osm.visitor.paint.relations' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.preferences' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.projection' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.projection.datum' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.projection.proj' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.validation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.validation.routines' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.validation.tests' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.data.validation.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.bbox' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.conflict' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.conflict.pair' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.conflict.pair.nodes' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.conflict.pair.properties' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.conflict.pair.relation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.conflict.pair.tags' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.conflict.tags' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.correction' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.datatransfer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.dialogs' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.dialogs.changeset' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.dialogs.changeset.query' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.dialogs.layer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.dialogs.properties' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.dialogs.relation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.dialogs.relation.actions' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.dialogs.relation.sort' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.dialogs.validator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.download' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.help' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.history' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.io' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.layer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.layer.geoimage' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.layer.gpx' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.layer.markerlayer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.mappaint' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.mappaint.mapcss' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.mappaint.mapcss.parsergen' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.mappaint.styleelement' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.oauth' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.preferences' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.preferences.advanced' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.preferences.audio' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.preferences.display' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.preferences.imagery' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.preferences.map' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.preferences.plugin' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.preferences.projection' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.preferences.remotecontrol' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.preferences.server' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.preferences.shortcut' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.preferences.validator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.progress' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.tagging' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.tagging.ac' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.tagging.presets' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.tagging.presets.items' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.gui.widgets' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.io' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.io.auth' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.io.imagery' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.io.remotecontrol' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.io.remotecontrol.handler' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.io.session' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.plugins' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.tools' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.tools.bugreport' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.tools.date' version='0.0.0'/>
+      <provided namespace='java.package' name='org.openstreetmap.josm.tools.template_engine' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.openstreetmap.josm' version='11826.0.0'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.openstreetmap.josm&#xA;Bundle-Version: 11826.0.0&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

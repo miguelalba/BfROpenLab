@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.jgoodies
+Export-Package: com.jgoodies.common.base,com.jgoodies.common.bean,com.
+ jgoodies.common.collect,com.jgoodies.common.format,com.jgoodies.commo
+ n.internal,com.jgoodies.common.swing,com.jgoodies.forms.builder,com.j
+ goodies.forms.debug,com.jgoodies.forms.factories,com.jgoodies.forms.i
+ nternal,com.jgoodies.forms.layout,com.jgoodies.forms.util,com.jgoodie
+ s.looks,com.jgoodies.looks.common,com.jgoodies.looks.plastic,com.jgoo
+ dies.looks.plastic.theme,com.jgoodies.looks.windows
+Bundle-Name: JGoodies
+Bundle-Version: 1.4.0
+Bundle-ClassPath: lib/jgoodies-common-1.4.0.jar,lib/jgoodies-forms-1.6
+ .0.jar,lib/jgoodies-looks-2.5.2.jar
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.jooq' version='3.6.2' singleton='false'>
+    <update id='org.jooq' range='[0.0.0,3.6.2)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='JOOQ'/>
+      <property name='maven-groupId' value='de.bund.bfr.knime'/>
+      <property name='maven-artifactId' value='org.jooq'/>
+      <property name='maven-version' value='3.6.2'/>
+    </properties>
+    <provides size='23'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jooq' version='3.6.2'/>
+      <provided namespace='osgi.bundle' name='org.jooq' version='3.6.2'/>
+      <provided namespace='java.package' name='org.jooq' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.api.annotation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.conf' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.exception' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.tools' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.tools.csv' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.tools.jdbc' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.tools.json' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.tools.reflect' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.types' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.cubrid' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.derby' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.firebird' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.h2' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.hsqldb' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.mariadb' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.mysql' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.postgres' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.sqlite' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.jooq' version='3.6.2'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.jooq&#xA;Bundle-Version: 3.6.2&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<knimeNode icon="./Geocoding.png" type="Manipulator" xmlns="http://knime.org/node/v2.10"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://knime.org/node/v2.10 http://knime.org/node/v2.10.xsd">
+	<name>Geocoding</name>
+
+	<shortDescription>
+		Provides latitude and longitude for given addresses.
+	</shortDescription>
+
+	<fullDescription>
+		<intro>
+			This node provides latitude and longitude for given addresses by using a Geocoding service. The
+			services from MapQuest and "Bundesamt für Kartographie und Geodäsie" require a key/UUID, which
+			have to be entered in the KNIME preferences under KNIME->Geocoding. The MapQuest key can be
+			obtained from
+			<a href="https://developer.mapquest.com/">https://developer.mapquest.com/.</a>
+			Please contact the "Bundesamt für Kartographie und Geodäsie" to get the UUID for its service
+			"gdz_geokodierung".
+		</intro>
+
+		<tab name="Common">
+			<option name="Address">
+				The address that should be geocoded.
+			</option>
+			<option name="Delay between Request (ms)">
+				Some services enforce a request rate for the Geocoding. To satisfy this rate,
+				the user can specify the delay between two request.
+			</option>
+			<option name="When multiple Results">
+				In some cases multiple results are returned for a single address. Several
+				options are provided on how to perform in this case.
+			</option>
+		</tab>
+		<tab name="Gisgraphy">
+			<option name="Country Code">
+				The mandatory country code (ISO 3166-1 alpha-2).
+			</option>
+			<option name="Server Address">
+				Address of the Gisgraphy Server.
+			</option>
+		</tab>
+	</fullDescription>
+
+	<ports>
+		<inPort index="0" name="Addresses">
+			Table with addresses.
+		</inPort>
+		<outPort index="0" name="Coordinates">
+			Table with latitudes and longitudes.
+		</outPort>
+	</ports>
+</knimeNode>

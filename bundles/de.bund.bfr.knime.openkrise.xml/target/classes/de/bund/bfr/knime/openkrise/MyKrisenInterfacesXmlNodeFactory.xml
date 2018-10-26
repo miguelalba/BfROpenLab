@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<knimeNode icon="./FoodChainLab_transp.png" type="Source" xmlns="http://knime.org/node/v2.10"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://knime.org/node/v2.10 http://knime.org/node/v2.10.xsd">
+	<name>Supply Chain Xml Reader</name>
+
+	<shortDescription>
+		Reads supply chain xml data from a folder or a web service.
+	</shortDescription>
+
+	<fullDescription>
+		<intro>
+			This node reads supply chain data from specialized xml files. It provides a table with
+			Node/Station data, a table with Edge/Delivery data and a table containing the tracing data model.
+			The data model is needed for all nodes that perform tracing ("Tracing View" and "Tracing").
+		</intro>
+
+		<tab name="Options">
+			<option name="Use Busstop">
+				If checked, the data is collected from a web service.
+			</option>
+			<option name="Server Address">
+				This option is enabled only if 'Use Busstop' is set. The address of the server providing the web service.
+			</option>
+			<option name="Client ID">
+				This option is enabled only if 'Use Busstop' is set. Username for authenticating on the server.
+			</option>
+			<option name="Xml Path">
+				This option is enabled only if 'Use Busstop' is not set. Here the folder is defined where the xml files are located.
+			</option>
+			<option name="Case Number">
+				There may be many different investigations on this topic. The 'Case Number' defines which one to get the data from.
+			</option>
+			<option name="Anonymize Data">
+				If checked, the data is anonymized. That means addresses, names of companies
+				and names of products are removed.
+			</option>
+		</tab>
+	</fullDescription>
+
+	<ports>
+		<outPort index="0" name="Stations">
+			Table with Station data.
+		</outPort>
+		<outPort index="1" name="Deliveries">
+			Table with Delivery data.
+		</outPort>
+		<outPort index="2" name="Delivery Relations">
+			Model that contains the relations between deliveries.
+		</outPort>
+	</ports>
+</knimeNode>

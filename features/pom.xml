@@ -1,0 +1,22 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>de.bund.bfr.knime</groupId>
+    <artifactId>de.bund.bfr.knime.features</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>de.bund.bfr.knime</groupId>
+        <artifactId>de.bund.bfr.knime.root</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <modules>
+    	<module>de.bund.bfr.knime.gis.feature</module>
+    	<module>de.bund.bfr.knime.network.feature</module>
+    	<module>de.bund.bfr.knime.nls.feature</module>
+    	<module>de.bund.bfr.knime.openkrise.feat</module>
+    	<module>de.bund.bfr.knime.openkrise.feature</module>
+    	<module>de.bund.bfr.knime.pmmlite.feature</module>
+    </modules>
+</project>

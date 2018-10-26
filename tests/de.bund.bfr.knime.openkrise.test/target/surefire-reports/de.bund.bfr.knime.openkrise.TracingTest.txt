@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: de.bund.bfr.knime.openkrise.TracingTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 sec - in de.bund.bfr.knime.openkrise.TracingTest
+testDeliveryKillContamination(de.bund.bfr.knime.openkrise.TracingTest)  Time elapsed: 0.043 sec
+testStationToStationTrace(de.bund.bfr.knime.openkrise.TracingTest)  Time elapsed: 0.001 sec
+testStationCrossContamination(de.bund.bfr.knime.openkrise.TracingTest)  Time elapsed: 0.002 sec
+testStationKillContamination(de.bund.bfr.knime.openkrise.TracingTest)  Time elapsed: 0.001 sec
+testDeliveryCrossContamination(de.bund.bfr.knime.openkrise.TracingTest)  Time elapsed: 0.002 sec
+testDeliveryToDeliveryTrace(de.bund.bfr.knime.openkrise.TracingTest)  Time elapsed: 0.001 sec
+testDeliveryWeight(de.bund.bfr.knime.openkrise.TracingTest)  Time elapsed: 0.001 sec
+testStationWeight(de.bund.bfr.knime.openkrise.TracingTest)  Time elapsed: 0 sec
+testMergeStations(de.bund.bfr.knime.openkrise.TracingTest)  Time elapsed: 0.002 sec

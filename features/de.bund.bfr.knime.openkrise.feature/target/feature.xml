@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.bund.bfr.knime.openkrise.feature"
+      label="FoodChain-Lab"
+      version="1.1.35.201810261327"
+      provider-name="German Federal Institute for Risk Assessment (BfR)">
+
+   <description url="http://www.example.com/description">
+      KNIME nodes providing Foodchain Tracing features.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Copyright (c) 2016 German Federal Institute for Risk Assessment (BfR)
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+ 
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+ 
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &quot;http://www.gnu.org/licenses/&quot;.
+   </license>
+
+   <requires>
+      <import plugin="org.knime.ext.svg"/>
+      <import plugin="com.jayway.jsonpath.json-path"/>
+      <import plugin="net.minidev.json-smart"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.knime.base" version="3.2.0" match="greaterOrEqual"/>
+      <import plugin="com.google.guava" version="19.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.annotation" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.apache.commons.math3"/>
+      <import plugin="org.knime.network.core"/>
+      <import plugin="org.knime.network.base"/>
+      <import plugin="org.knime.json"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="com.fasterxml.jackson.core.jackson-core"/>
+      <import plugin="com.fasterxml.jackson.core.jackson-databind"/>
+      <import plugin="com.github.fge.jackson-coreutils"/>
+   </requires>
+
+   <plugin
+         id="de.bund.bfr.knime.openkrise"
+         download-size="59"
+         install-size="130"
+         version="1.1.35.201810261327"/>
+
+   <plugin
+         id="de.bund.bfr.knime.openkrise.views"
+         download-size="286"
+         install-size="677"
+         version="1.1.35.201810261327"/>
+
+   <plugin
+         id="de.bund.bfr.knime.gis"
+         download-size="233"
+         install-size="536"
+         version="1.1.35.201810261327"/>
+
+   <plugin
+         id="de.bund.bfr.knime"
+         download-size="59"
+         install-size="114"
+         version="1.1.35.201810261327"/>
+
+   <plugin
+         id="org.geotools"
+         download-size="9752"
+         install-size="10574"
+         version="12.0.0"/>
+
+   <plugin
+         id="edu.uci.ics.jung"
+         download-size="2380"
+         install-size="3441"
+         version="2.0.1.20150409"/>
+
+   <plugin
+         id="com.jgoodies"
+         download-size="486"
+         install-size="543"
+         version="1.4.0"/>
+
+   <plugin
+         id="com.thoughtworks.xstream"
+         download-size="485"
+         install-size="553"
+         version="1.4.7"/>
+
+   <plugin
+         id="de.bund.bfr.knime.openkrise.util"
+         download-size="180"
+         install-size="518"
+         version="1.1.35.201810261327"/>
+
+   <plugin
+         id="quick.dbtable"
+         download-size="154"
+         install-size="177"
+         version="2.0.5"/>
+
+   <plugin
+         id="de.bund.bfr.knime.openkrise.db"
+         download-size="6420"
+         install-size="7862"
+         version="1.1.35.201810261327"/>
+
+   <plugin
+         id="org.openstreetmap.josm"
+         download-size="10015"
+         install-size="10767"
+         version="11826.0.0"/>
+
+   <plugin
+         id="org.apache.poi.new"
+         download-size="10389"
+         install-size="12410"
+         version="3.11.0"/>
+
+   <plugin
+         id="org.jooq"
+         download-size="1372"
+         install-size="1525"
+         version="3.6.2"/>
+
+   <plugin
+         id="de.bund.bfr.knime.openkrise.common"
+         download-size="35"
+         install-size="74"
+         version="1.1.35.201810261327"/>
+
+   <plugin
+         id="de.bund.bfr.knime.openkrise.db.generated"
+         download-size="55"
+         install-size="149"
+         version="1.1.35.201810261327"/>
+
+   <plugin
+         id="edu.umd.cs.findbugs.annotations"
+         download-size="60"
+         install-size="76"
+         version="3.0.1"/>
+
+   <plugin
+         id="de.bund.bfr.jung"
+         download-size="67"
+         install-size="140"
+         version="1.1.35.201810261327"/>
+
+</feature>

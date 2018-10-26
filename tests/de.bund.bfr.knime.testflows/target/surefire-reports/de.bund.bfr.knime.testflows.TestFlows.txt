@@ -1,0 +1,735 @@
+-------------------------------------------------------------------------------
+Test set: de.bund.bfr.knime.testflows.TestFlows
+-------------------------------------------------------------------------------
+Tests run: 102, Failures: 0, Errors: 102, Skipped: 0, Time elapsed: 1.117 sec <<< FAILURE! - in de.bund.bfr.knime.testflows.TestFlows
+testSupplyChainReaderLotBasedWithExtrafields(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 1.047 sec  <<< ERROR!
+org.knime.core.util.LockFailedException: Unable to lock workflow from "C:\Users\de\git\BfROpenLab\tests\de.bund.bfr.knime.testflows\target\classes\workflows\SupplyChainReader_Test_LotBased_With_Extrafields". Location does not exist.
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7603)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7453)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.loadWorkflow(WorkflowLoadTest.java:120)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.run(WorkflowLoadTest.java:99)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:96)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderLotBasedWithExtrafields(TestFlows.java:111)
+
+testSupplyChainReaderLotBasedWithExtrafields(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 1.051 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.openViews(WorkflowOpenViewsTest.java:86)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.run(WorkflowOpenViewsTest.java:79)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:108)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderLotBasedWithExtrafields(TestFlows.java:111)
+
+testSupplyChainReaderLotBasedWithExtrafields(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 1.051 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.resetTestflowConfigNode(WorkflowExecuteTest.java:159)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.run(WorkflowExecuteTest.java:91)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:113)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderLotBasedWithExtrafields(TestFlows.java:111)
+
+testSupplyChainReaderLotBasedWithExtrafields(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 1.052 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.checkNodeMessages(WorkflowNodeMessagesTest.java:83)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.run(WorkflowNodeMessagesTest.java:74)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:118)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderLotBasedWithExtrafields(TestFlows.java:111)
+
+testSupplyChainReaderLotBasedWithExtrafields(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 1.052 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.hiliteRows(WorkflowHiliteTest.java:85)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.run(WorkflowHiliteTest.java:77)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:129)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderLotBasedWithExtrafields(TestFlows.java:111)
+
+testSupplyChainReaderLotBasedWithExtrafields(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 1.052 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowCloseTest.run(WorkflowCloseTest.java:75)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:148)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderLotBasedWithExtrafields(TestFlows.java:111)
+
+testTracingWithJoinDeliveries(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+org.knime.core.util.LockFailedException: Unable to lock workflow from "C:\Users\de\git\BfROpenLab\tests\de.bund.bfr.knime.testflows\target\classes\workflows\Tracing_Test_with_Join_Deliveries". Location does not exist.
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7603)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7453)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.loadWorkflow(WorkflowLoadTest.java:120)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.run(WorkflowLoadTest.java:99)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:96)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithJoinDeliveries(TestFlows.java:135)
+
+testTracingWithJoinDeliveries(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.openViews(WorkflowOpenViewsTest.java:86)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.run(WorkflowOpenViewsTest.java:79)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:108)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithJoinDeliveries(TestFlows.java:135)
+
+testTracingWithJoinDeliveries(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.resetTestflowConfigNode(WorkflowExecuteTest.java:159)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.run(WorkflowExecuteTest.java:91)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:113)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithJoinDeliveries(TestFlows.java:135)
+
+testTracingWithJoinDeliveries(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.checkNodeMessages(WorkflowNodeMessagesTest.java:83)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.run(WorkflowNodeMessagesTest.java:74)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:118)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithJoinDeliveries(TestFlows.java:135)
+
+testTracingWithJoinDeliveries(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.hiliteRows(WorkflowHiliteTest.java:85)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.run(WorkflowHiliteTest.java:77)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:129)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithJoinDeliveries(TestFlows.java:135)
+
+testTracingWithJoinDeliveries(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowCloseTest.run(WorkflowCloseTest.java:75)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:148)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithJoinDeliveries(TestFlows.java:135)
+
+testGISCluster(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+org.knime.core.util.LockFailedException: Unable to lock workflow from "C:\Users\de\git\BfROpenLab\tests\de.bund.bfr.knime.testflows\target\classes\workflows\GISCluster_Test". Location does not exist.
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7603)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7453)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.loadWorkflow(WorkflowLoadTest.java:120)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.run(WorkflowLoadTest.java:99)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:96)
+	at de.bund.bfr.knime.testflows.TestFlows.testGISCluster(TestFlows.java:87)
+
+testGISCluster(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.openViews(WorkflowOpenViewsTest.java:86)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.run(WorkflowOpenViewsTest.java:79)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:108)
+	at de.bund.bfr.knime.testflows.TestFlows.testGISCluster(TestFlows.java:87)
+
+testGISCluster(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.resetTestflowConfigNode(WorkflowExecuteTest.java:159)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.run(WorkflowExecuteTest.java:91)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:113)
+	at de.bund.bfr.knime.testflows.TestFlows.testGISCluster(TestFlows.java:87)
+
+testGISCluster(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.checkNodeMessages(WorkflowNodeMessagesTest.java:83)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.run(WorkflowNodeMessagesTest.java:74)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:118)
+	at de.bund.bfr.knime.testflows.TestFlows.testGISCluster(TestFlows.java:87)
+
+testGISCluster(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.hiliteRows(WorkflowHiliteTest.java:85)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.run(WorkflowHiliteTest.java:77)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:129)
+	at de.bund.bfr.knime.testflows.TestFlows.testGISCluster(TestFlows.java:87)
+
+testGISCluster(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowCloseTest.run(WorkflowCloseTest.java:75)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:148)
+	at de.bund.bfr.knime.testflows.TestFlows.testGISCluster(TestFlows.java:87)
+
+testTracingWithCCOnDeliveries(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+org.knime.core.util.LockFailedException: Unable to lock workflow from "C:\Users\de\git\BfROpenLab\tests\de.bund.bfr.knime.testflows\target\classes\workflows\Tracing_Test_with_CC_on_Deliveries". Location does not exist.
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7603)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7453)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.loadWorkflow(WorkflowLoadTest.java:120)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.run(WorkflowLoadTest.java:99)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:96)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithCCOnDeliveries(TestFlows.java:123)
+
+testTracingWithCCOnDeliveries(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.openViews(WorkflowOpenViewsTest.java:86)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.run(WorkflowOpenViewsTest.java:79)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:108)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithCCOnDeliveries(TestFlows.java:123)
+
+testTracingWithCCOnDeliveries(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.resetTestflowConfigNode(WorkflowExecuteTest.java:159)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.run(WorkflowExecuteTest.java:91)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:113)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithCCOnDeliveries(TestFlows.java:123)
+
+testTracingWithCCOnDeliveries(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.checkNodeMessages(WorkflowNodeMessagesTest.java:83)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.run(WorkflowNodeMessagesTest.java:74)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:118)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithCCOnDeliveries(TestFlows.java:123)
+
+testTracingWithCCOnDeliveries(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.hiliteRows(WorkflowHiliteTest.java:85)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.run(WorkflowHiliteTest.java:77)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:129)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithCCOnDeliveries(TestFlows.java:123)
+
+testTracingWithCCOnDeliveries(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowCloseTest.run(WorkflowCloseTest.java:75)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:148)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithCCOnDeliveries(TestFlows.java:123)
+
+testSupplyChainReaderWithoutSerials(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+org.knime.core.util.LockFailedException: Unable to lock workflow from "C:\Users\de\git\BfROpenLab\tests\de.bund.bfr.knime.testflows\target\classes\workflows\SupplyChainReader_Test_Without_Serials". Location does not exist.
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7603)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7453)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.loadWorkflow(WorkflowLoadTest.java:120)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.run(WorkflowLoadTest.java:99)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:96)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderWithoutSerials(TestFlows.java:117)
+
+testSupplyChainReaderWithoutSerials(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.openViews(WorkflowOpenViewsTest.java:86)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.run(WorkflowOpenViewsTest.java:79)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:108)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderWithoutSerials(TestFlows.java:117)
+
+testSupplyChainReaderWithoutSerials(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.resetTestflowConfigNode(WorkflowExecuteTest.java:159)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.run(WorkflowExecuteTest.java:91)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:113)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderWithoutSerials(TestFlows.java:117)
+
+testSupplyChainReaderWithoutSerials(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.checkNodeMessages(WorkflowNodeMessagesTest.java:83)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.run(WorkflowNodeMessagesTest.java:74)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:118)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderWithoutSerials(TestFlows.java:117)
+
+testSupplyChainReaderWithoutSerials(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.hiliteRows(WorkflowHiliteTest.java:85)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.run(WorkflowHiliteTest.java:77)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:129)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderWithoutSerials(TestFlows.java:117)
+
+testSupplyChainReaderWithoutSerials(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowCloseTest.run(WorkflowCloseTest.java:75)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:148)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderWithoutSerials(TestFlows.java:117)
+
+testFitting(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0 sec  <<< ERROR!
+org.knime.core.util.LockFailedException: Unable to lock workflow from "C:\Users\de\git\BfROpenLab\tests\de.bund.bfr.knime.testflows\target\classes\workflows\Fitting_Test". Location does not exist.
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7603)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7453)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.loadWorkflow(WorkflowLoadTest.java:120)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.run(WorkflowLoadTest.java:99)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:96)
+	at de.bund.bfr.knime.testflows.TestFlows.testFitting(TestFlows.java:75)
+
+testFitting(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.openViews(WorkflowOpenViewsTest.java:86)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.run(WorkflowOpenViewsTest.java:79)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:108)
+	at de.bund.bfr.knime.testflows.TestFlows.testFitting(TestFlows.java:75)
+
+testFitting(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.resetTestflowConfigNode(WorkflowExecuteTest.java:159)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.run(WorkflowExecuteTest.java:91)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:113)
+	at de.bund.bfr.knime.testflows.TestFlows.testFitting(TestFlows.java:75)
+
+testFitting(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.checkNodeMessages(WorkflowNodeMessagesTest.java:83)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.run(WorkflowNodeMessagesTest.java:74)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:118)
+	at de.bund.bfr.knime.testflows.TestFlows.testFitting(TestFlows.java:75)
+
+testFitting(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.hiliteRows(WorkflowHiliteTest.java:85)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.run(WorkflowHiliteTest.java:77)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:129)
+	at de.bund.bfr.knime.testflows.TestFlows.testFitting(TestFlows.java:75)
+
+testFitting(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowCloseTest.run(WorkflowCloseTest.java:75)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:148)
+	at de.bund.bfr.knime.testflows.TestFlows.testFitting(TestFlows.java:75)
+
+testFittingLOD(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+org.knime.core.util.LockFailedException: Unable to lock workflow from "C:\Users\de\git\BfROpenLab\tests\de.bund.bfr.knime.testflows\target\classes\workflows\Fitting_LOD_Test". Location does not exist.
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7603)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7453)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.loadWorkflow(WorkflowLoadTest.java:120)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.run(WorkflowLoadTest.java:99)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:96)
+	at de.bund.bfr.knime.testflows.TestFlows.testFittingLOD(TestFlows.java:69)
+
+testFittingLOD(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.openViews(WorkflowOpenViewsTest.java:86)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.run(WorkflowOpenViewsTest.java:79)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:108)
+	at de.bund.bfr.knime.testflows.TestFlows.testFittingLOD(TestFlows.java:69)
+
+testFittingLOD(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.resetTestflowConfigNode(WorkflowExecuteTest.java:159)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.run(WorkflowExecuteTest.java:91)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:113)
+	at de.bund.bfr.knime.testflows.TestFlows.testFittingLOD(TestFlows.java:69)
+
+testFittingLOD(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.checkNodeMessages(WorkflowNodeMessagesTest.java:83)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.run(WorkflowNodeMessagesTest.java:74)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:118)
+	at de.bund.bfr.knime.testflows.TestFlows.testFittingLOD(TestFlows.java:69)
+
+testFittingLOD(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.hiliteRows(WorkflowHiliteTest.java:85)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.run(WorkflowHiliteTest.java:77)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:129)
+	at de.bund.bfr.knime.testflows.TestFlows.testFittingLOD(TestFlows.java:69)
+
+testFittingLOD(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowCloseTest.run(WorkflowCloseTest.java:75)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:148)
+	at de.bund.bfr.knime.testflows.TestFlows.testFittingLOD(TestFlows.java:69)
+
+testTracingWithTemporalOrder(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+org.knime.core.util.LockFailedException: Unable to lock workflow from "C:\Users\de\git\BfROpenLab\tests\de.bund.bfr.knime.testflows\target\classes\workflows\Tracing_Test_with_Temporal_Order". Location does not exist.
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7603)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7453)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.loadWorkflow(WorkflowLoadTest.java:120)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.run(WorkflowLoadTest.java:99)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:96)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithTemporalOrder(TestFlows.java:141)
+
+testTracingWithTemporalOrder(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.openViews(WorkflowOpenViewsTest.java:86)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.run(WorkflowOpenViewsTest.java:79)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:108)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithTemporalOrder(TestFlows.java:141)
+
+testTracingWithTemporalOrder(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.resetTestflowConfigNode(WorkflowExecuteTest.java:159)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.run(WorkflowExecuteTest.java:91)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:113)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithTemporalOrder(TestFlows.java:141)
+
+testTracingWithTemporalOrder(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.checkNodeMessages(WorkflowNodeMessagesTest.java:83)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.run(WorkflowNodeMessagesTest.java:74)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:118)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithTemporalOrder(TestFlows.java:141)
+
+testTracingWithTemporalOrder(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.hiliteRows(WorkflowHiliteTest.java:85)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.run(WorkflowHiliteTest.java:77)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:129)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithTemporalOrder(TestFlows.java:141)
+
+testTracingWithTemporalOrder(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowCloseTest.run(WorkflowCloseTest.java:75)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:148)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithTemporalOrder(TestFlows.java:141)
+
+testDiffFitting(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+org.knime.core.util.LockFailedException: Unable to lock workflow from "C:\Users\de\git\BfROpenLab\tests\de.bund.bfr.knime.testflows\target\classes\workflows\DiffFitting_Test". Location does not exist.
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7603)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7453)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.loadWorkflow(WorkflowLoadTest.java:120)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.run(WorkflowLoadTest.java:99)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:96)
+	at de.bund.bfr.knime.testflows.TestFlows.testDiffFitting(TestFlows.java:63)
+
+testDiffFitting(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.openViews(WorkflowOpenViewsTest.java:86)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.run(WorkflowOpenViewsTest.java:79)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:108)
+	at de.bund.bfr.knime.testflows.TestFlows.testDiffFitting(TestFlows.java:63)
+
+testDiffFitting(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.resetTestflowConfigNode(WorkflowExecuteTest.java:159)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.run(WorkflowExecuteTest.java:91)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:113)
+	at de.bund.bfr.knime.testflows.TestFlows.testDiffFitting(TestFlows.java:63)
+
+testDiffFitting(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.checkNodeMessages(WorkflowNodeMessagesTest.java:83)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.run(WorkflowNodeMessagesTest.java:74)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:118)
+	at de.bund.bfr.knime.testflows.TestFlows.testDiffFitting(TestFlows.java:63)
+
+testDiffFitting(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.hiliteRows(WorkflowHiliteTest.java:85)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.run(WorkflowHiliteTest.java:77)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:129)
+	at de.bund.bfr.knime.testflows.TestFlows.testDiffFitting(TestFlows.java:63)
+
+testDiffFitting(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowCloseTest.run(WorkflowCloseTest.java:75)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:148)
+	at de.bund.bfr.knime.testflows.TestFlows.testDiffFitting(TestFlows.java:63)
+
+testTracingView(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+org.knime.core.util.LockFailedException: Unable to lock workflow from "C:\Users\de\git\BfROpenLab\tests\de.bund.bfr.knime.testflows\target\classes\workflows\TracingView_Test". Location does not exist.
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7603)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7453)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.loadWorkflow(WorkflowLoadTest.java:120)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.run(WorkflowLoadTest.java:99)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:96)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingView(TestFlows.java:153)
+
+testTracingView(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.openViews(WorkflowOpenViewsTest.java:86)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.run(WorkflowOpenViewsTest.java:79)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:108)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingView(TestFlows.java:153)
+
+testTracingView(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.resetTestflowConfigNode(WorkflowExecuteTest.java:159)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.run(WorkflowExecuteTest.java:91)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:113)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingView(TestFlows.java:153)
+
+testTracingView(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.checkNodeMessages(WorkflowNodeMessagesTest.java:83)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.run(WorkflowNodeMessagesTest.java:74)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:118)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingView(TestFlows.java:153)
+
+testTracingView(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.hiliteRows(WorkflowHiliteTest.java:85)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.run(WorkflowHiliteTest.java:77)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:129)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingView(TestFlows.java:153)
+
+testTracingView(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowCloseTest.run(WorkflowCloseTest.java:75)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:148)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingView(TestFlows.java:153)
+
+testTracingWithoutTemporalOrder(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0 sec  <<< ERROR!
+org.knime.core.util.LockFailedException: Unable to lock workflow from "C:\Users\de\git\BfROpenLab\tests\de.bund.bfr.knime.testflows\target\classes\workflows\Tracing_Test_without_Temporal_Order". Location does not exist.
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7603)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7453)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.loadWorkflow(WorkflowLoadTest.java:120)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.run(WorkflowLoadTest.java:99)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:96)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithoutTemporalOrder(TestFlows.java:147)
+
+testTracingWithoutTemporalOrder(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.openViews(WorkflowOpenViewsTest.java:86)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.run(WorkflowOpenViewsTest.java:79)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:108)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithoutTemporalOrder(TestFlows.java:147)
+
+testTracingWithoutTemporalOrder(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.resetTestflowConfigNode(WorkflowExecuteTest.java:159)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.run(WorkflowExecuteTest.java:91)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:113)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithoutTemporalOrder(TestFlows.java:147)
+
+testTracingWithoutTemporalOrder(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.checkNodeMessages(WorkflowNodeMessagesTest.java:83)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.run(WorkflowNodeMessagesTest.java:74)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:118)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithoutTemporalOrder(TestFlows.java:147)
+
+testTracingWithoutTemporalOrder(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.hiliteRows(WorkflowHiliteTest.java:85)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.run(WorkflowHiliteTest.java:77)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:129)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithoutTemporalOrder(TestFlows.java:147)
+
+testTracingWithoutTemporalOrder(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowCloseTest.run(WorkflowCloseTest.java:75)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:148)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithoutTemporalOrder(TestFlows.java:147)
+
+testShapefileReader(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0 sec  <<< ERROR!
+org.knime.core.util.LockFailedException: Unable to lock workflow from "C:\Users\de\git\BfROpenLab\tests\de.bund.bfr.knime.testflows\target\classes\workflows\ShapefileReader_Test". Location does not exist.
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7603)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7453)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.loadWorkflow(WorkflowLoadTest.java:120)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.run(WorkflowLoadTest.java:99)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:96)
+	at de.bund.bfr.knime.testflows.TestFlows.testShapefileReader(TestFlows.java:93)
+
+testShapefileReader(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.openViews(WorkflowOpenViewsTest.java:86)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.run(WorkflowOpenViewsTest.java:79)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:108)
+	at de.bund.bfr.knime.testflows.TestFlows.testShapefileReader(TestFlows.java:93)
+
+testShapefileReader(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.resetTestflowConfigNode(WorkflowExecuteTest.java:159)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.run(WorkflowExecuteTest.java:91)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:113)
+	at de.bund.bfr.knime.testflows.TestFlows.testShapefileReader(TestFlows.java:93)
+
+testShapefileReader(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.checkNodeMessages(WorkflowNodeMessagesTest.java:83)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.run(WorkflowNodeMessagesTest.java:74)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:118)
+	at de.bund.bfr.knime.testflows.TestFlows.testShapefileReader(TestFlows.java:93)
+
+testShapefileReader(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.hiliteRows(WorkflowHiliteTest.java:85)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.run(WorkflowHiliteTest.java:77)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:129)
+	at de.bund.bfr.knime.testflows.TestFlows.testShapefileReader(TestFlows.java:93)
+
+testShapefileReader(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowCloseTest.run(WorkflowCloseTest.java:75)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:148)
+	at de.bund.bfr.knime.testflows.TestFlows.testShapefileReader(TestFlows.java:93)
+
+testSupplyChainReaderWithExtrafields(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+org.knime.core.util.LockFailedException: Unable to lock workflow from "C:\Users\de\git\BfROpenLab\tests\de.bund.bfr.knime.testflows\target\classes\workflows\SupplyChainReader_Test_With_Extrafields". Location does not exist.
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7603)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7453)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.loadWorkflow(WorkflowLoadTest.java:120)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.run(WorkflowLoadTest.java:99)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:96)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderWithExtrafields(TestFlows.java:105)
+
+testSupplyChainReaderWithExtrafields(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.openViews(WorkflowOpenViewsTest.java:86)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.run(WorkflowOpenViewsTest.java:79)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:108)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderWithExtrafields(TestFlows.java:105)
+
+testSupplyChainReaderWithExtrafields(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.resetTestflowConfigNode(WorkflowExecuteTest.java:159)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.run(WorkflowExecuteTest.java:91)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:113)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderWithExtrafields(TestFlows.java:105)
+
+testSupplyChainReaderWithExtrafields(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.checkNodeMessages(WorkflowNodeMessagesTest.java:83)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.run(WorkflowNodeMessagesTest.java:74)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:118)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderWithExtrafields(TestFlows.java:105)
+
+testSupplyChainReaderWithExtrafields(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.hiliteRows(WorkflowHiliteTest.java:85)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.run(WorkflowHiliteTest.java:77)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:129)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderWithExtrafields(TestFlows.java:105)
+
+testSupplyChainReaderWithExtrafields(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowCloseTest.run(WorkflowCloseTest.java:75)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:148)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReaderWithExtrafields(TestFlows.java:105)
+
+testAddressCreator(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+org.knime.core.util.LockFailedException: Unable to lock workflow from "C:\Users\de\git\BfROpenLab\tests\de.bund.bfr.knime.testflows\target\classes\workflows\AddressCreator_Test". Location does not exist.
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7603)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7453)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.loadWorkflow(WorkflowLoadTest.java:120)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.run(WorkflowLoadTest.java:99)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:96)
+	at de.bund.bfr.knime.testflows.TestFlows.testAddressCreator(TestFlows.java:57)
+
+testAddressCreator(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.openViews(WorkflowOpenViewsTest.java:86)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.run(WorkflowOpenViewsTest.java:79)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:108)
+	at de.bund.bfr.knime.testflows.TestFlows.testAddressCreator(TestFlows.java:57)
+
+testAddressCreator(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.resetTestflowConfigNode(WorkflowExecuteTest.java:159)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.run(WorkflowExecuteTest.java:91)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:113)
+	at de.bund.bfr.knime.testflows.TestFlows.testAddressCreator(TestFlows.java:57)
+
+testAddressCreator(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.checkNodeMessages(WorkflowNodeMessagesTest.java:83)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.run(WorkflowNodeMessagesTest.java:74)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:118)
+	at de.bund.bfr.knime.testflows.TestFlows.testAddressCreator(TestFlows.java:57)
+
+testAddressCreator(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.hiliteRows(WorkflowHiliteTest.java:85)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.run(WorkflowHiliteTest.java:77)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:129)
+	at de.bund.bfr.knime.testflows.TestFlows.testAddressCreator(TestFlows.java:57)
+
+testAddressCreator(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowCloseTest.run(WorkflowCloseTest.java:75)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:148)
+	at de.bund.bfr.knime.testflows.TestFlows.testAddressCreator(TestFlows.java:57)
+
+testGeocoding(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+org.knime.core.util.LockFailedException: Unable to lock workflow from "C:\Users\de\git\BfROpenLab\tests\de.bund.bfr.knime.testflows\target\classes\workflows\Geocoding_Test". Location does not exist.
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7603)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7453)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.loadWorkflow(WorkflowLoadTest.java:120)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.run(WorkflowLoadTest.java:99)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:96)
+	at de.bund.bfr.knime.testflows.TestFlows.testGeocoding(TestFlows.java:81)
+
+testGeocoding(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.openViews(WorkflowOpenViewsTest.java:86)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.run(WorkflowOpenViewsTest.java:79)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:108)
+	at de.bund.bfr.knime.testflows.TestFlows.testGeocoding(TestFlows.java:81)
+
+testGeocoding(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.resetTestflowConfigNode(WorkflowExecuteTest.java:159)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.run(WorkflowExecuteTest.java:91)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:113)
+	at de.bund.bfr.knime.testflows.TestFlows.testGeocoding(TestFlows.java:81)
+
+testGeocoding(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.checkNodeMessages(WorkflowNodeMessagesTest.java:83)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.run(WorkflowNodeMessagesTest.java:74)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:118)
+	at de.bund.bfr.knime.testflows.TestFlows.testGeocoding(TestFlows.java:81)
+
+testGeocoding(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.hiliteRows(WorkflowHiliteTest.java:85)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.run(WorkflowHiliteTest.java:77)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:129)
+	at de.bund.bfr.knime.testflows.TestFlows.testGeocoding(TestFlows.java:81)
+
+testGeocoding(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowCloseTest.run(WorkflowCloseTest.java:75)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:148)
+	at de.bund.bfr.knime.testflows.TestFlows.testGeocoding(TestFlows.java:81)
+
+testSupplyChainReader(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+org.knime.core.util.LockFailedException: Unable to lock workflow from "C:\Users\de\git\BfROpenLab\tests\de.bund.bfr.knime.testflows\target\classes\workflows\SupplyChainReader_Test". Location does not exist.
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7603)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7453)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.loadWorkflow(WorkflowLoadTest.java:120)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.run(WorkflowLoadTest.java:99)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:96)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReader(TestFlows.java:99)
+
+testSupplyChainReader(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.openViews(WorkflowOpenViewsTest.java:86)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.run(WorkflowOpenViewsTest.java:79)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:108)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReader(TestFlows.java:99)
+
+testSupplyChainReader(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.resetTestflowConfigNode(WorkflowExecuteTest.java:159)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.run(WorkflowExecuteTest.java:91)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:113)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReader(TestFlows.java:99)
+
+testSupplyChainReader(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.checkNodeMessages(WorkflowNodeMessagesTest.java:83)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.run(WorkflowNodeMessagesTest.java:74)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:118)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReader(TestFlows.java:99)
+
+testSupplyChainReader(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.hiliteRows(WorkflowHiliteTest.java:85)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.run(WorkflowHiliteTest.java:77)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:129)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReader(TestFlows.java:99)
+
+testSupplyChainReader(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowCloseTest.run(WorkflowCloseTest.java:75)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:148)
+	at de.bund.bfr.knime.testflows.TestFlows.testSupplyChainReader(TestFlows.java:99)
+
+testTracingWithCollapseAndDifferentWeights(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+org.knime.core.util.LockFailedException: Unable to lock workflow from "C:\Users\de\git\BfROpenLab\tests\de.bund.bfr.knime.testflows\target\classes\workflows\Tracing_Test_with_Collapse_and_Different_Weights". Location does not exist.
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7603)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7453)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.loadWorkflow(WorkflowLoadTest.java:120)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowLoadTest.run(WorkflowLoadTest.java:99)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:96)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithCollapseAndDifferentWeights(TestFlows.java:129)
+
+testTracingWithCollapseAndDifferentWeights(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.openViews(WorkflowOpenViewsTest.java:86)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowOpenViewsTest.run(WorkflowOpenViewsTest.java:79)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:108)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithCollapseAndDifferentWeights(TestFlows.java:129)
+
+testTracingWithCollapseAndDifferentWeights(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.resetTestflowConfigNode(WorkflowExecuteTest.java:159)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowExecuteTest.run(WorkflowExecuteTest.java:91)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:113)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithCollapseAndDifferentWeights(TestFlows.java:129)
+
+testTracingWithCollapseAndDifferentWeights(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.checkNodeMessages(WorkflowNodeMessagesTest.java:83)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowNodeMessagesTest.run(WorkflowNodeMessagesTest.java:74)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:118)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithCollapseAndDifferentWeights(TestFlows.java:129)
+
+testTracingWithCollapseAndDifferentWeights(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.hiliteRows(WorkflowHiliteTest.java:85)
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowHiliteTest.run(WorkflowHiliteTest.java:77)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:129)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithCollapseAndDifferentWeights(TestFlows.java:129)
+
+testTracingWithCollapseAndDifferentWeights(de.bund.bfr.knime.testflows.TestFlows)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at nl.esciencecenter.e3dchem.knime.testing.core.ng.WorkflowCloseTest.run(WorkflowCloseTest.java:75)
+	at nl.esciencecenter.e3dchem.knime.testing.TestFlowRunner.runTestWorkflow(TestFlowRunner.java:148)
+	at de.bund.bfr.knime.testflows.TestFlows.testTracingWithCollapseAndDifferentWeights(TestFlows.java:129)
+

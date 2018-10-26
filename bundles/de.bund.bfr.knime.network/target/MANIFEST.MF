@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.bund.bfr.knime.network;singleton:=true
+Require-Bundle: org.knime.base;bundle-version="3.2.0",org.knime.networ
+ k.base,org.knime.network.core,org.knime.timeseries,org.knime.js.views
+ ,org.knime.ext.jep,org.eclipse.jdt.annotation;bundle-version="2.0.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: German Federal Institute for Risk Assessment (BfR)
+Eclipse-ExtensibleAPI: true
+Export-Package: de.bund.bfr.knime.network,de.bund.bfr.knime.network.an
+ alyzer
+Bundle-Name: Network Utils
+Bundle-Version: 1.1.35.201810261327
+Bundle-ClassPath: .
+Bundle-Activator: de.bund.bfr.knime.network.Activator
+

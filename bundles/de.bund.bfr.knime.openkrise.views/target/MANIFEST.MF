@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.bund.bfr.knime.openkrise.views;singleton:=true
+Bundle-Name: KNIME Tracing Nodes (Views)
+Bundle-Version: 1.1.35.201810261327
+Bundle-ClassPath: .
+Require-Bundle: de.bund.bfr.knime.openkrise,de.bund.bfr.knime.openkris
+ e.util,com.github.fge.jackson-coreutils,com.fasterxml.jackson.core.ja
+ ckson-core,com.fasterxml.jackson.core.jackson-databind,org.knime.json
+ ,de.bund.bfr.knime.gis
+Bundle-ManifestVersion: 2
+Bundle-Activator: de.bund.bfr.knime.openkrise.views.Activator
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: German Federal Institute for Risk Assessment (BfR)
+Import-Package: org.knime.base.data.xml
+

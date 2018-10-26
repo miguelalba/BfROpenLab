@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.sbml.jsbml
+Export-Package: org.sbml.jsbml,org.sbml.jsbml.ext,org.sbml.jsbml.ext.a
+ rrays,org.sbml.jsbml.ext.arrays.compiler,org.sbml.jsbml.ext.arrays.fl
+ attening,org.sbml.jsbml.ext.arrays.test,org.sbml.jsbml.ext.arrays.uti
+ l,org.sbml.jsbml.ext.arrays.validator,org.sbml.jsbml.ext.arrays.valid
+ ator.constraints,org.sbml.jsbml.ext.comp,org.sbml.jsbml.ext.comp.test
+ ,org.sbml.jsbml.ext.distrib,org.sbml.jsbml.ext.distrib.util,org.sbml.
+ jsbml.ext.dyn,org.sbml.jsbml.ext.dyn.test,org.sbml.jsbml.ext.fbc,org.
+ sbml.jsbml.ext.fbc.test,org.sbml.jsbml.ext.groups,org.sbml.jsbml.ext.
+ groups.test,org.sbml.jsbml.ext.layout,org.sbml.jsbml.ext.layout.test,
+ org.sbml.jsbml.ext.multi,org.sbml.jsbml.ext.qual,org.sbml.jsbml.ext.q
+ ual.test,org.sbml.jsbml.ext.render,org.sbml.jsbml.ext.render.test,org
+ .sbml.jsbml.ext.req,org.sbml.jsbml.ext.spatial,org.sbml.jsbml.math,or
+ g.sbml.jsbml.math.compiler,org.sbml.jsbml.math.compiler.resources,org
+ .sbml.jsbml.math.parser,org.sbml.jsbml.math.test,org.sbml.jsbml.ontol
+ ogy,org.sbml.jsbml.resources,org.sbml.jsbml.test,org.sbml.jsbml.test.
+ sbml,org.sbml.jsbml.text.parser,org.sbml.jsbml.util,org.sbml.jsbml.ut
+ il.compilers,org.sbml.jsbml.util.filters,org.sbml.jsbml.validator,org
+ .sbml.jsbml.xml,org.sbml.jsbml.xml.parsers,org.sbml.jsbml.xml.stax,or
+ g.sbml.jsbml.xml.test,org.sbml.jsbml.xml.xstream.converter
+Bundle-Name: JSBML
+Bundle-Version: 1.1.0
+Bundle-ClassPath: lib/jsbml-1.1-with-dependencies.jar
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+

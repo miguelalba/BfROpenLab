@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.bund.bfr.knime.openkrise.common;singleton:=tru
+ e
+Export-Package: de.bund.bfr.knime.openkrise.common
+Bundle-Name: FoodChain-Lab Common
+Bundle-Version: 1.1.35.201810261327
+Require-Bundle: de.bund.bfr.knime;visibility:=reexport,de.bund.bfr.kni
+ me.openkrise.db.generated;visibility:=reexport
+Bundle-ManifestVersion: 2
+Bundle-Activator: de.bund.bfr.knime.openkrise.common.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: German Federal Institute for Risk Assessment (BfR)
+

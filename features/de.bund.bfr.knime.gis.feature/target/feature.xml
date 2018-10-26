@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.bund.bfr.knime.gis.feature"
+      label="KNIME Nodes for GIS and Graph Visualization"
+      version="1.1.35.201810261327"
+      provider-name="German Federal Institute for Risk Assessment (BfR)">
+
+   <description url="http://www.example.com/description">
+      KNIME nodes providing GIS features.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Copyright (c) 2016 German Federal Institute for Risk Assessment (BfR)
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+ 
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+ 
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &quot;http://www.gnu.org/licenses/&quot;.
+   </license>
+
+   <requires>
+      <import plugin="org.knime.ext.svg"/>
+      <import plugin="com.jayway.jsonpath.json-path"/>
+      <import plugin="net.minidev.json-smart"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.knime.base" version="3.2.0" match="greaterOrEqual"/>
+      <import plugin="com.google.guava" version="19.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.annotation" version="2.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="de.bund.bfr.knime.gis"
+         download-size="233"
+         install-size="536"
+         version="1.1.35.201810261327"/>
+
+   <plugin
+         id="edu.uci.ics.jung"
+         download-size="2380"
+         install-size="3441"
+         version="2.0.1.20150409"/>
+
+   <plugin
+         id="de.bund.bfr.knime.gis.util"
+         download-size="9"
+         install-size="10"
+         version="1.1.35.201810261327"/>
+
+   <plugin
+         id="de.bund.bfr.knime.gis.views"
+         download-size="103"
+         install-size="241"
+         version="1.1.35.201810261327"/>
+
+   <plugin
+         id="org.geotools"
+         download-size="9752"
+         install-size="10574"
+         version="12.0.0"/>
+
+   <plugin
+         id="de.bund.bfr.knime"
+         download-size="59"
+         install-size="114"
+         version="1.1.35.201810261327"/>
+
+   <plugin
+         id="org.openstreetmap.josm"
+         download-size="10015"
+         install-size="10767"
+         version="11826.0.0"/>
+
+   <plugin
+         id="edu.umd.cs.findbugs.annotations"
+         download-size="60"
+         install-size="76"
+         version="3.0.1"/>
+
+   <plugin
+         id="de.bund.bfr.jung"
+         download-size="67"
+         install-size="140"
+         version="1.1.35.201810261327"/>
+
+</feature>

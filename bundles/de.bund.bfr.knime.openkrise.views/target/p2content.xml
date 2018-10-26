@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='de.bund.bfr.knime.openkrise.views' version='1.1.35.201810261327'>
+    <update id='de.bund.bfr.knime.openkrise.views' range='[0.0.0,1.1.35.201810261327)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='KNIME Tracing Nodes (Views)'/>
+      <property name='org.eclipse.equinox.p2.provider' value='German Federal Institute for Risk Assessment (BfR)'/>
+      <property name='maven-groupId' value='de.bund.bfr.knime'/>
+      <property name='maven-artifactId' value='de.bund.bfr.knime.openkrise.views'/>
+      <property name='maven-version' value='1.1.35-SNAPSHOT'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.bund.bfr.knime.openkrise.views' version='1.1.35.201810261327'/>
+      <provided namespace='osgi.bundle' name='de.bund.bfr.knime.openkrise.views' version='1.1.35.201810261327'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='8'>
+      <required namespace='osgi.bundle' name='de.bund.bfr.knime.openkrise' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.bund.bfr.knime.openkrise.util' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='com.github.fge.jackson-coreutils' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='com.fasterxml.jackson.core.jackson-core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='com.fasterxml.jackson.core.jackson-databind' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.knime.json' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.bund.bfr.knime.gis' range='0.0.0'/>
+      <required namespace='java.package' name='org.knime.base.data.xml' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='de.bund.bfr.knime.openkrise.views' version='1.1.35.201810261327'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: de.bund.bfr.knime.openkrise.views;singleton:=true&#xA;Bundle-Version: 1.1.35.201810261327&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knimeNode icon="./FoodChainLab_transp.png" type="Manipulator" xmlns="http://knime.org/node/v2.10"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://knime.org/node/v2.10 http://knime.org/node/v2.10.xsd">
+	<name>Tracing</name>
+
+	<shortDescription>
+      	Provides forward and backward tracing. 
+    </shortDescription>
+
+	<fullDescription>
+		<intro>
+			This node can visualize a supply chain. The three input ports expect a station table, an
+			delivery table and a delivery relations table. These tables are provided by the Supply Chain
+			Analyzer. Tracing can be performed by setting the following four properties for stations and
+			deliveries: "Case Weight", "Cross Contamination", "Kill Contamination" and "Observed". Each of
+			the properties can be set in the respective tab. Based on these properties the following values
+			are computed: "Score", "Normalized Score", "Positive Score", "Negative Score", "Forward",
+			"Backward".
+		</intro>
+
+		<tab name="Station Properties">
+			<option name="Weight">
+				Weights for stations. The computed scores are based on these weights.
+			</option>
+			<option name="Cross Contamination">
+				Set cross contamination for stations. That means all incoming deliveries can
+				contaminate all outgoing deliveries (see "Enforce Temporal Order").
+			</option>
+			<option name="Kill Contamination">
+				Set kill contamination for stations. That means contaminations from incoming
+				deliveries are killed and do not spread to outgoing deliveries.
+			</option>
+			<option name="Observed">
+				For all stations/deliveries that can reached by forward/backward tracing from
+				stations selected here, the "Forward"/"Backward" property is set to true.
+			</option>
+		</tab>
+		<tab name="Delivery Properties">
+			<option name="Weight">
+				Weights for deliveries. The computed scores are based on these weights.
+			</option>
+			<option name="Cross Contamination">
+				Set cross contamination for deliveries. Similar to "Station Cross
+				Contamination", but unselected (no cross contamination) incoming deliveries and outgoing
+				deliveries, that are only connected to unselected incoming deliveries, are excluded from the
+				cross contamination.
+			</option>
+			<option name="Kill Contamination">
+				Set kill contamination for deliveries. That means contaminations from these
+				deliveries are killed and do not spread to outgoing deliveries.
+			</option>
+			<option name="Observed">
+				For all stations/deliveries that can reached by forward/backward tracing from
+				deliveries selected here, the "Forward"/"Backward" is set to true.
+			</option>
+		</tab>
+		<tab name="Options">
+			<option name="Enforce Temporal Order">
+				If checked, the delivery date is used for cross contamination. That means a
+				delivery can only contaminate deliveries with a later date.
+			</option>
+			<option name="Filter">
+				Allows to apply a filter to all stations/deliveries. Only filtered
+				stations/deliveries are shown in the table.
+			</option>
+			<option name="Clear">
+				Clears the input in the table. True/false values are set to false and numbers
+				are set to zero.
+			</option>
+			<option name="Set All">
+				Sets all the values for all filtered stations/deliveries to "true"/"specfied
+				value".
+			</option>
+		</tab>
+	</fullDescription>
+
+	<ports>
+		<inPort index="0" name="Stations">
+			Table with Station data. Is provided by first out port of Supply
+			Chain Reader.
+		</inPort>
+		<inPort index="1" name="Deliveries">
+			Table with Delivery data. Is provided by second out port of Supply
+			Chain Reader.
+		</inPort>
+		<inPort index="2" name="Delivery Relations">
+			Model that contains the relations between deliveries. Is provided by
+			third out port of Supply Chain Reader.
+		</inPort>
+		<outPort index="0" name="Stations Tracing">
+			Table with Station data and tracing results.
+		</outPort>
+		<outPort index="1" name="Deliveries Tracing">
+			Table with Delivery data and tracing results.
+		</outPort>
+	</ports>
+</knimeNode>

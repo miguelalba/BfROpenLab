@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.geotools' version='12.0.0' singleton='false'>
+    <update id='org.geotools' range='[0.0.0,12.0.0)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='Geotools'/>
+      <property name='maven-groupId' value='de.bund.bfr.knime'/>
+      <property name='maven-artifactId' value='org.geotools'/>
+      <property name='maven-version' value='12.0.0'/>
+    </properties>
+    <provides size='191'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.geotools' version='12.0.0'/>
+      <provided namespace='osgi.bundle' name='org.geotools' version='12.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.algorithm' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.algorithm.distance' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.algorithm.locate' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.algorithm.match' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.awt' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.densify' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.geom' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.geom.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.geom.prep' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.geom.util' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.geomgraph' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.geomgraph.index' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.index' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.index.bintree' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.index.chain' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.index.intervalrtree' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.index.kdtree' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.index.quadtree' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.index.strtree' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.index.sweepline' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.io' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.io.gml2' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.linearref' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.math' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.noding' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.noding.snapround' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.operation' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.operation.buffer' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.operation.buffer.validate' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.operation.distance' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.operation.distance3d' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.operation.linemerge' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.operation.overlay' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.operation.overlay.snap' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.operation.overlay.validate' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.operation.polygonize' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.operation.predicate' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.operation.relate' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.operation.union' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.operation.valid' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.planargraph' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.planargraph.algorithm' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.precision' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.shape' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.shape.fractal' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.shape.random' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.simplify' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.triangulate' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.triangulate.quadedge' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jts.util' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jtsexample.geom' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jtsexample.geom.prep' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jtsexample.io.gml2' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jtsexample.linearref' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jtsexample.operation.distance' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jtsexample.operation.linemerge' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jtsexample.operation.polygonize' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jtsexample.precision' version='0.0.0'/>
+      <provided namespace='java.package' name='com.vividsolutions.jtsexample.technique' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.console' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.collection' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.crs' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.directory' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.memory' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.ows' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.shapefile' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.shapefile.dbf' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.shapefile.fid' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.shapefile.files' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.shapefile.index' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.shapefile.index.quadtree' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.shapefile.index.quadtree.fs' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.shapefile.shp' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.shapefile.shp.xml' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.simple' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.sort' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.store' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.data.view' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.factory' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.feature' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.feature.collection' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.feature.simple' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.feature.type' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.feature.visitor' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.filter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.filter.capability' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.filter.expression' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.filter.function' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.filter.function.math' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.filter.function.string' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.filter.identity' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.filter.spatial' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.filter.temporal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.filter.visitor' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.geometry' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.geometry.coordinatesequence' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.geometry.jts' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.geometry.jts.coordinatesequence' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.geometry.text' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.gml' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.gml.producer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.io' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.math' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.measure' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.metadata' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.metadata.iso' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.metadata.iso.citation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.metadata.iso.constraint' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.metadata.iso.content' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.metadata.iso.distribution' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.metadata.iso.extent' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.metadata.iso.identification' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.metadata.iso.lineage' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.metadata.iso.maintenance' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.metadata.iso.quality' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.metadata.iso.spatial' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.metadata.sql' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.nature' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.ows' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.parameter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.referencing' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.referencing.crs' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.referencing.cs' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.referencing.datum' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.referencing.factory' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.referencing.factory.epsg' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.referencing.factory.gridshift' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.referencing.factory.wms' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.referencing.operation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.referencing.operation.builder' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.referencing.operation.matrix' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.referencing.operation.projection' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.referencing.operation.transform' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.referencing.wkt' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.renderer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.resources' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.resources.geometry' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.resources.i18n' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.styling' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.styling.visitor' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.temporal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.temporal.object' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.temporal.reference' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.text' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.util.logging' version='0.0.0'/>
+      <provided namespace='java.package' name='org.geotools.xml.transform' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.annotation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.coverage' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.coverage.grid' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.coverage.processing' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.feature' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.feature.simple' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.feature.type' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.filter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.filter.capability' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.filter.expression' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.filter.identity' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.filter.sort' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.filter.spatial' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.filter.temporal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.geometry' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.geometry.aggregate' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.geometry.complex' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.geometry.coordinate' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.geometry.primitive' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.metadata' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.metadata.citation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.metadata.constraint' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.metadata.content' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.metadata.distribution' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.metadata.extent' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.metadata.identification' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.metadata.lineage' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.metadata.maintenance' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.metadata.quality' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.metadata.spatial' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.parameter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.referencing' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.referencing.crs' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.referencing.cs' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.referencing.datum' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.referencing.operation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.style' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.temporal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.opengis.util' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.geotools' version='12.0.0'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.geotools&#xA;Bundle-Version: 12.0.0&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

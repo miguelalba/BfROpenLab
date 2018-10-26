@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.jooq
+Export-Package: org.jooq,org.jooq.api.annotation,org.jooq.conf,org.joo
+ q.exception,org.jooq.impl,org.jooq.tools,org.jooq.tools.csv,org.jooq.
+ tools.jdbc,org.jooq.tools.json,org.jooq.tools.reflect,org.jooq.types,
+ org.jooq.util.cubrid,org.jooq.util.derby,org.jooq.util.firebird,org.j
+ ooq.util.h2,org.jooq.util.hsqldb,org.jooq.util.mariadb,org.jooq.util.
+ mysql,org.jooq.util.postgres,org.jooq.util.sqlite
+Bundle-Name: JOOQ
+Bundle-Version: 3.6.2
+Bundle-ClassPath: lib/jooq-3.6.2.jar
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+

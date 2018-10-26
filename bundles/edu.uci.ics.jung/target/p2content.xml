@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='edu.uci.ics.jung' version='2.0.1.20150409' singleton='false'>
+    <update id='edu.uci.ics.jung' range='[0.0.0,2.0.1.20150409)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='JUNG'/>
+      <property name='maven-groupId' value='de.bund.bfr.knime'/>
+      <property name='maven-artifactId' value='edu.uci.ics.jung'/>
+      <property name='maven-version' value='2.0.1.20150409'/>
+    </properties>
+    <provides size='49'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='edu.uci.ics.jung' version='2.0.1.20150409'/>
+      <provided namespace='osgi.bundle' name='edu.uci.ics.jung' version='2.0.1.20150409'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.algorithms.blockmodel' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.algorithms.cluster' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.algorithms.filters' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.algorithms.flows' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.algorithms.generators' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.algorithms.generators.random' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.algorithms.importance' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.algorithms.layout' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.algorithms.layout.util' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.algorithms.matrix' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.algorithms.metrics' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.algorithms.scoring' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.algorithms.scoring.util' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.algorithms.shortestpath' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.algorithms.transformation' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.algorithms.util' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.graph' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.graph.event' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.graph.util' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.io' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.io.graphml' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.io.graphml.parser' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.visualization' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.visualization.annotations' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.visualization.control' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.visualization.decorators' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.visualization.layout' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.visualization.picking' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.visualization.renderers' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.visualization.subLayout' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.visualization.transform' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.visualization.transform.shape' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.uci.ics.jung.visualization.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.collections15' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.collections15.bag' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.collections15.bidimap' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.collections15.buffer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.collections15.collection' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.collections15.comparators' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.collections15.functors' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.collections15.iterators' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.collections15.keyvalue' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.collections15.list' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.collections15.map' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.collections15.multimap' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.collections15.set' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='edu.uci.ics.jung' version='2.0.1.20150409'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: edu.uci.ics.jung&#xA;Bundle-Version: 2.0.1.20150409&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

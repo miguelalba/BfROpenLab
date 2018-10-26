@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.nrw.verbraucherschutz.idv.daten
+Export-Package: de.nrw.verbraucherschutz.idv.daten
+Bundle-Name: Data Exchange with NRW
+Bundle-Version: 1.1.35.201810261327
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+

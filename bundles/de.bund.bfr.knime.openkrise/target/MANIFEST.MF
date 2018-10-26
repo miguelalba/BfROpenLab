@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.bund.bfr.knime.openkrise; singleton:=true
+Require-Bundle: de.bund.bfr.knime.gis;visibility:=reexport,de.bund.bfr
+ .knime.openkrise.common;visibility:=reexport,de.bund.bfr.knime.openkr
+ ise.db
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: German Federal Institute for Risk Assessment (BfR)
+Eclipse-ExtensibleAPI: true
+Export-Package: de.bund.bfr.knime.openkrise
+Bundle-Name: FCL Basic
+Bundle-Version: 1.1.35.201810261327
+Bundle-ClassPath: .
+Bundle-Activator: de.bund.bfr.knime.openkrise.Activator
+

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='org.apache.poi.new' version='3.11.0'>
+    <properties size='5'>
+      <property name='artifact.size' value='10638596'/>
+      <property name='download.size' value='10638596'/>
+      <property name='maven-groupId' value='de.bund.bfr.knime'/>
+      <property name='maven-artifactId' value='org.apache.poi.new'/>
+      <property name='maven-version' value='3.11.0'/>
+    </properties>
+  </artifact>
+</artifacts>

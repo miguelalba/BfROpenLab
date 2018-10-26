@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.bund.bfr.math;singleton:=true
+Export-Package: de.bund.bfr.math
+Bundle-Name: Math
+Bundle-Version: 1.1.35.201810261327
+Bundle-ClassPath: .
+Require-Bundle: de.bund.bfr.knime;visibility:=reexport,org.apache.comm
+ ons.math3;visibility:=reexport,org.sbml.jsbml;visibility:=reexport
+Bundle-ManifestVersion: 2
+Bundle-Activator: de.bund.bfr.math.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: German Federal Institute for Risk Assessment (BfR)
+

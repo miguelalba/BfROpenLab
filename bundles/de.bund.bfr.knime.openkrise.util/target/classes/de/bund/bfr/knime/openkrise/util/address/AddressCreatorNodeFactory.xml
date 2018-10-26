@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knimeNode icon="./FoodChainLab_transp.png" type="Manipulator" xmlns="http://knime.org/node/v2.10"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://knime.org/node/v2.10 http://knime.org/node/v2.10.xsd">
+	<name>Address Creator</name>
+
+	<shortDescription>
+		Creates formatted address from multiple columns.
+	</shortDescription>
+
+	<fullDescription>
+		<intro>
+			This node creates a formatted address from the columns specified in config dialog. This
+			address can be used in the Geocoding node.
+		</intro>
+
+		<option name="Street Column">
+			Column containing the street name.
+		</option>
+		<option name="House Number Column">
+			Column containing the house number.
+		</option>
+		<option name="City Column">
+			Column containing the city name.
+		</option>
+		<option name="District Column">
+			Column containing the district name.
+		</option>
+		<option name="State Column">
+			Column containing the state name.
+		</option>
+		<option name="Country Column">
+			Column containing the country name.
+		</option>
+		<option name="Postal Code Column">
+			Column containing the postal code.
+		</option>
+		<option name="House Number after Street Name">
+			If checked the address house number is put after the street name, e.g. "Main
+			Street 1". Otherwise it is put before the street name, e.g. "1 Main Street".
+		</option>
+	</fullDescription>
+
+	<ports>
+		<inPort index="0" name="Input Table">
+			Input table.
+		</inPort>
+		<outPort index="0" name="Address Table">
+			Input table with address column.
+		</outPort>
+	</ports>
+</knimeNode>

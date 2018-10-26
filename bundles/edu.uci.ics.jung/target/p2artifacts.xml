@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='edu.uci.ics.jung' version='2.0.1.20150409'>
+    <properties size='5'>
+      <property name='artifact.size' value='2437846'/>
+      <property name='download.size' value='2437846'/>
+      <property name='maven-groupId' value='de.bund.bfr.knime'/>
+      <property name='maven-artifactId' value='edu.uci.ics.jung'/>
+      <property name='maven-version' value='2.0.1.20150409'/>
+    </properties>
+  </artifact>
+</artifacts>

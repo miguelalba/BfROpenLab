@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='de.bund.bfr.github' version='1.0.0.201810261327' singleton='false'>
+    <update id='de.bund.bfr.github' range='[0.0.0,1.0.0.201810261327)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='Github'/>
+      <property name='maven-groupId' value='de.bund.bfr.knime'/>
+      <property name='maven-artifactId' value='de.bund.bfr.github'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='64'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.bund.bfr.github' version='1.0.0.201810261327'/>
+      <provided namespace='osgi.bundle' name='de.bund.bfr.github' version='1.0.0.201810261327'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.annotation' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core.base' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core.format' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core.io' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core.json' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core.sym' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core.type' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core.util' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.annotation' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.cfg' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.deser' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.deser.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.deser.std' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.exc' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.ext' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.introspect' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.jsonFormatVisitors' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.jsonschema' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.jsontype' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.jsontype.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.module' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.node' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.ser' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.ser.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.ser.std' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.type' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.util' version='0.0.0'/>
+      <provided namespace='java.package' name='com.google.common.annotations' version='0.0.0'/>
+      <provided namespace='java.package' name='com.google.common.base' version='0.0.0'/>
+      <provided namespace='java.package' name='com.google.common.base.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='com.google.common.cache' version='0.0.0'/>
+      <provided namespace='java.package' name='com.google.common.collect' version='0.0.0'/>
+      <provided namespace='java.package' name='com.google.common.escape' version='0.0.0'/>
+      <provided namespace='java.package' name='com.google.common.eventbus' version='0.0.0'/>
+      <provided namespace='java.package' name='com.google.common.hash' version='0.0.0'/>
+      <provided namespace='java.package' name='com.google.common.html' version='0.0.0'/>
+      <provided namespace='java.package' name='com.google.common.io' version='0.0.0'/>
+      <provided namespace='java.package' name='com.google.common.math' version='0.0.0'/>
+      <provided namespace='java.package' name='com.google.common.net' version='0.0.0'/>
+      <provided namespace='java.package' name='com.google.common.primitives' version='0.0.0'/>
+      <provided namespace='java.package' name='com.google.common.reflect' version='0.0.0'/>
+      <provided namespace='java.package' name='com.google.common.util.concurrent' version='0.0.0'/>
+      <provided namespace='java.package' name='com.google.common.xml' version='0.0.0'/>
+      <provided namespace='java.package' name='com.google.thirdparty.publicsuffix' version='0.0.0'/>
+      <provided namespace='java.package' name='de.bund.bfr.github' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.codec' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.codec.binary' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.codec.digest' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.codec.language' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.codec.language.bm' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.codec.net' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.comparator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.filefilter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.input' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.monitor' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.output' version='0.0.0'/>
+      <provided namespace='java.package' name='org.kohsuke.github' version='0.0.0'/>
+      <provided namespace='java.package' name='org.kohsuke.github.extras' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='de.bund.bfr.github' version='1.0.0.201810261327'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: de.bund.bfr.github&#xA;Bundle-Version: 1.0.0.201810261327&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

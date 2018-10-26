@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: de.bund.bfr.knime.gis.views.canvas.highlighting.AndOrHighlightConditionTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 sec - in de.bund.bfr.knime.gis.views.canvas.highlighting.AndOrHighlightConditionTest
+testAndOrHighlightConditionListOfListOfLogicalHighlightConditionStringBooleanColorBooleanBooleanString(de.bund.bfr.knime.gis.views.canvas.highlighting.AndOrHighlightConditionTest)  Time elapsed: 0.009 sec
+testAndOrHighlightConditionLogicalHighlightConditionStringBooleanColorBooleanBooleanString(de.bund.bfr.knime.gis.views.canvas.highlighting.AndOrHighlightConditionTest)  Time elapsed: 0 sec
+testCopy(de.bund.bfr.knime.gis.views.canvas.highlighting.AndOrHighlightConditionTest)  Time elapsed: 0.011 sec
+testGetValueRange(de.bund.bfr.knime.gis.views.canvas.highlighting.AndOrHighlightConditionTest)  Time elapsed: 0 sec
+testAndOrHighlightCondition(de.bund.bfr.knime.gis.views.canvas.highlighting.AndOrHighlightConditionTest)  Time elapsed: 0 sec
+testGetConditionCount(de.bund.bfr.knime.gis.views.canvas.highlighting.AndOrHighlightConditionTest)  Time elapsed: 0.003 sec
+testGetValues(de.bund.bfr.knime.gis.views.canvas.highlighting.AndOrHighlightConditionTest)  Time elapsed: 0.01 sec

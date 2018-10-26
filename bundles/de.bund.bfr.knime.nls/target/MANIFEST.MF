@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.bund.bfr.knime.nls;singleton:=true
+Bundle-Name: Nonlinear Regression Nodes
+Bundle-Version: 1.1.35.201810261327
+Bundle-ClassPath: .
+Require-Bundle: de.bund.bfr.knime,de.bund.bfr.math,de.bund.bfr.knime.c
+ hart
+Bundle-ManifestVersion: 2
+Bundle-Activator: de.bund.bfr.knime.nls.Activator
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: German Federal Institute for Risk Assessment (BfR)
+

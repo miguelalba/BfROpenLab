@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.mockito' version='2.7.0' singleton='false'>
+    <update id='org.mockito' range='[0.0.0,2.7.0)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='Mockito'/>
+      <property name='maven-groupId' value='de.bund.bfr.knime'/>
+      <property name='maven-artifactId' value='org.mockito'/>
+      <property name='maven-version' value='2.7.0'/>
+    </properties>
+    <provides size='65'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.mockito' version='2.7.0'/>
+      <provided namespace='osgi.bundle' name='org.mockito' version='2.7.0'/>
+      <provided namespace='java.package' name='org.mockito' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.configuration' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.exceptions.base' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.exceptions.misusing' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.exceptions.stacktrace' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.exceptions.verification' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.exceptions.verification.junit' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.hamcrest' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.configuration' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.configuration.injection' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.configuration.injection.filter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.configuration.injection.scanner' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.configuration.plugins' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.creation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.creation.bytebuddy' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.creation.instance' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.creation.settings' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.creation.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.debugging' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.exceptions' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.exceptions.stacktrace' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.exceptions.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.framework' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.hamcrest' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.handler' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.invocation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.invocation.finder' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.invocation.realmethod' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.junit' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.junit.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.listeners' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.matchers' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.matchers.apachecommons' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.matchers.text' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.progress' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.reporting' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.runners' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.runners.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.session' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.stubbing' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.stubbing.answers' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.stubbing.defaultanswers' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.util.collections' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.util.concurrent' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.util.io' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.util.reflection' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.verification' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.verification.api' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.verification.argumentmatching' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.internal.verification.checkers' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.invocation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.junit' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.listeners' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.mock' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.plugins' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.quality' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.runners' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.session' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.stubbing' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.verification' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='osgi.bundle' name='org.junit' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.mockito' version='2.7.0'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.mockito&#xA;Bundle-Version: 2.7.0&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

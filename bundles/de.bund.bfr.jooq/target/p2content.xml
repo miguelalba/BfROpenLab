@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='de.bund.bfr.jooq' version='1.0.0.201810261327' singleton='false'>
+    <update id='de.bund.bfr.jooq' range='[0.0.0,1.0.0.201810261327)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='Jooq'/>
+      <property name='maven-groupId' value='de.bund.bfr.knime'/>
+      <property name='maven-artifactId' value='de.bund.bfr.jooq'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='79'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.bund.bfr.jooq' version='1.0.0.201810261327'/>
+      <provided namespace='osgi.bundle' name='de.bund.bfr.jooq' version='1.0.0.201810261327'/>
+      <provided namespace='java.package' name='de.bund.bfr.jooq' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.auth' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.dbinfo' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.error' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.index' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.jdbc' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.jdbc.pool' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.lib' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.lib.java' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.lib.tar' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.lib.tar.rb' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.map' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.navigator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.persist' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.resources' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.result' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.rights' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.rowio' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.sample' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.scriptio' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.server' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.types' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hsqldb.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.api.annotation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.conf' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.exception' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.tools' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.tools.csv' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.tools.jdbc' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.tools.json' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.tools.reflect' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.types' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.cubrid' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.cubrid.dba' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.cubrid.dba.tables' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.derby' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.derby.sys' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.derby.sys.tables' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.example' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.firebird' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.firebird.rdb' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.firebird.rdb.tables' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.h2' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.h2.information_schema' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.h2.information_schema.tables' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.hsqldb' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.hsqldb.information_schema' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.hsqldb.information_schema.tables' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.jaxb' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.jaxb.tools' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.jdbc' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.mariadb' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.mysql' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.mysql.information_schema' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.mysql.information_schema.tables' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.mysql.mysql' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.mysql.mysql.enums' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.mysql.mysql.tables' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.postgres' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.postgres.information_schema' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.postgres.information_schema.tables' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.postgres.pg_catalog' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.postgres.pg_catalog.routines' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.postgres.pg_catalog.tables' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.sqlite' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.sqlite.sqlite_master' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.xml' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jooq.util.xml.jaxb' version='0.0.0'/>
+      <provided namespace='java.package' name='xjb' version='0.0.0'/>
+      <provided namespace='java.package' name='xjb.codegen' version='0.0.0'/>
+      <provided namespace='java.package' name='xjb.meta' version='0.0.0'/>
+      <provided namespace='java.package' name='xsd' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='de.bund.bfr.jooq' version='1.0.0.201810261327'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: de.bund.bfr.jooq&#xA;Bundle-Version: 1.0.0.201810261327&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

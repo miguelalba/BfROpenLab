@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knimeNode icon="./default.png" type="Sink" xmlns="http://knime.org/node/v2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://knime.org/node/v2.10 http://knime.org/node/v2.10.xsd">
+    <name>TracingXmlOut</name>
+    
+    <shortDescription>
+        Sends a report on the investigated case number back to the web service, which needs to be defined in a preceding 'SupplyChain Xml Reader'.
+    </shortDescription>
+    
+    <fullDescription>
+        <intro>
+        </intro>
+    </fullDescription>
+    
+	<ports>
+		<inPort index="0" name="Stations">
+			Table with Station data - including scores.
+		</inPort>
+		<inPort index="1" name="Deliveries">
+			Table with Delivery data - including scores.
+		</inPort>
+		<inPort index="2" name="Reporting Image">
+			An image that is part of the report. Most probably an image from the outport of a TracingView is chosen here.
+		</inPort>
+	</ports>
+</knimeNode>

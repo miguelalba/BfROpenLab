@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.bund.bfr.knime;singleton:=true
+Export-Package: de.bund.bfr.knime,de.bund.bfr.knime.ui
+Bundle-Name: KNIME Utilities
+Bundle-Version: 1.1.35.201810261327
+Require-Bundle: org.eclipse.ui;visibility:=reexport,org.knime.base;bun
+ dle-version="3.2.0";visibility:=reexport,edu.umd.cs.findbugs.annotati
+ ons;visibility:=reexport,com.google.guava;bundle-version="19.0.0";vis
+ ibility:=reexport
+Bundle-ManifestVersion: 2
+Bundle-Activator: de.bund.bfr.knime.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: German Federal Institute for Risk Assessment (BfR)
+

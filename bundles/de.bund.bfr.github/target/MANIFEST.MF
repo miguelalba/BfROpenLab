@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.bund.bfr.github
+Export-Package: com.fasterxml.jackson.annotation,com.fasterxml.jackson
+ .core,com.fasterxml.jackson.core.base,com.fasterxml.jackson.core.form
+ at,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core.json,com.
+ fasterxml.jackson.core.sym,com.fasterxml.jackson.core.type,com.faster
+ xml.jackson.core.util,com.fasterxml.jackson.databind,com.fasterxml.ja
+ ckson.databind.annotation,com.fasterxml.jackson.databind.cfg,com.fast
+ erxml.jackson.databind.deser,com.fasterxml.jackson.databind.deser.imp
+ l,com.fasterxml.jackson.databind.deser.std,com.fasterxml.jackson.data
+ bind.exc,com.fasterxml.jackson.databind.ext,com.fasterxml.jackson.dat
+ abind.introspect,com.fasterxml.jackson.databind.jsonFormatVisitors,co
+ m.fasterxml.jackson.databind.jsonschema,com.fasterxml.jackson.databin
+ d.jsontype,com.fasterxml.jackson.databind.jsontype.impl,com.fasterxml
+ .jackson.databind.module,com.fasterxml.jackson.databind.node,com.fast
+ erxml.jackson.databind.ser,com.fasterxml.jackson.databind.ser.impl,co
+ m.fasterxml.jackson.databind.ser.std,com.fasterxml.jackson.databind.t
+ ype,com.fasterxml.jackson.databind.util,com.google.common.annotations
+ ,com.google.common.base,com.google.common.base.internal,com.google.co
+ mmon.cache,com.google.common.collect,com.google.common.escape,com.goo
+ gle.common.eventbus,com.google.common.hash,com.google.common.html,com
+ .google.common.io,com.google.common.math,com.google.common.net,com.go
+ ogle.common.primitives,com.google.common.reflect,com.google.common.ut
+ il.concurrent,com.google.common.xml,com.google.thirdparty.publicsuffi
+ x,de.bund.bfr.github,org.apache.commons.codec,org.apache.commons.code
+ c.binary,org.apache.commons.codec.digest,org.apache.commons.codec.lan
+ guage,org.apache.commons.codec.language.bm,org.apache.commons.codec.n
+ et,org.apache.commons.io,org.apache.commons.io.comparator,org.apache.
+ commons.io.filefilter,org.apache.commons.io.input,org.apache.commons.
+ io.monitor,org.apache.commons.io.output,org.kohsuke.github,org.kohsuk
+ e.github.extras
+Bundle-Name: Github
+Bundle-Version: 1.0.0.201810261327
+Bundle-ClassPath: github.jar, lib/github-api-1.68.jar, lib/jackson-dat
+ abind-2.5.0.jar, lib/jackson-core-2.5.0.jar, lib/jackson-annotations-
+ 2.5.0.jar, lib/commons-io-2.4.jar, lib/guava-18.0.jar, lib/commons-co
+ dec-1.10.jar
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+

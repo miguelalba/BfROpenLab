@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='de.bund.bfr.knime.pmmlite.core.generated' version='1.1.35.201810261327'>
+    <update id='de.bund.bfr.knime.pmmlite.core.generated' range='[0.0.0,1.1.35.201810261327)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Pmm-Lab-Lite Core Generated'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Christian Thoens'/>
+      <property name='maven-groupId' value='de.bund.bfr.knime'/>
+      <property name='maven-artifactId' value='de.bund.bfr.knime.pmmlite.core.generated'/>
+      <property name='maven-version' value='1.1.35-SNAPSHOT'/>
+    </properties>
+    <provides size='12'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.bund.bfr.knime.pmmlite.core.generated' version='1.1.35.201810261327'/>
+      <provided namespace='osgi.bundle' name='de.bund.bfr.knime.pmmlite.core.generated' version='1.1.35.201810261327'/>
+      <provided namespace='java.package' name='de.bund.bfr.knime.pmmlite.core.common' version='0.0.0'/>
+      <provided namespace='java.package' name='de.bund.bfr.knime.pmmlite.core.common.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='de.bund.bfr.knime.pmmlite.core.common.util' version='0.0.0'/>
+      <provided namespace='java.package' name='de.bund.bfr.knime.pmmlite.core.data' version='0.0.0'/>
+      <provided namespace='java.package' name='de.bund.bfr.knime.pmmlite.core.data.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='de.bund.bfr.knime.pmmlite.core.data.util' version='0.0.0'/>
+      <provided namespace='java.package' name='de.bund.bfr.knime.pmmlite.core.models' version='0.0.0'/>
+      <provided namespace='java.package' name='de.bund.bfr.knime.pmmlite.core.models.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='de.bund.bfr.knime.pmmlite.core.models.util' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='3'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.emf.ecore' range='2.11.0'/>
+      <required namespace='osgi.bundle' name='de.bund.bfr.knime.pmmlite.core.types' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='de.bund.bfr.knime.pmmlite.core.generated' version='1.1.35.201810261327'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: de.bund.bfr.knime.pmmlite.core.generated;singleton:=true&#xA;Bundle-Version: 1.1.35.201810261327&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

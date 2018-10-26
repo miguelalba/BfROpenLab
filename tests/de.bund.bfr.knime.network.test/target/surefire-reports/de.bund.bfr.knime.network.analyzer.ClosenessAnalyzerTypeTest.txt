@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------
+Test set: de.bund.bfr.knime.network.analyzer.ClosenessAnalyzerTypeTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.851 sec - in de.bund.bfr.knime.network.analyzer.ClosenessAnalyzerTypeTest
+testWithoutWeights(de.bund.bfr.knime.network.analyzer.ClosenessAnalyzerTypeTest)  Time elapsed: 0.431 sec
+testWithWeights(de.bund.bfr.knime.network.analyzer.ClosenessAnalyzerTypeTest)  Time elapsed: 0.004 sec

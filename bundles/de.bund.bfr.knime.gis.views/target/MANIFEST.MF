@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.bund.bfr.knime.gis.views; singleton:=true
+Bundle-Name: KNIME GIS Nodes (Views)
+Bundle-Version: 1.1.35.201810261327
+Bundle-ClassPath: .
+Require-Bundle: de.bund.bfr.knime.gis
+Bundle-ManifestVersion: 2
+Bundle-Activator: de.bund.bfr.knime.gis.views.Activator
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: German Federal Institute for Risk Assessment (BfR)
+

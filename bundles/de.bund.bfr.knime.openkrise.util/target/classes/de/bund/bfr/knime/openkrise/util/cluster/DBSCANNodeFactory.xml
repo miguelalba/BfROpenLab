@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knimeNode icon="./FoodChainLab_transp.png" type="Manipulator" xmlns="http://knime.org/node/v2.10"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://knime.org/node/v2.10 http://knime.org/node/v2.10.xsd">
+	<name>GIS Cluster</name>
+
+	<shortDescription>
+        Performs clustering bases on geographical coordinates.
+    </shortDescription>
+
+	<fullDescription>
+		<intro>
+			This node performs a clustering based on geographical coordinates. The geographical
+			coordinates can be acquired via the "Geocoding" node. Two clustering algorithms are supported:
+			DBSCAN and k-means.
+		</intro>
+
+		<option name="Cluster Algorithm">
+			Algorithm used for clustering: DBSCAN (http://en.wikipedia.org/wiki/DBSCAN) or
+			k-means (http://en.wikipedia.org/wiki/K-means_clustering).
+		</option>
+		<option name="Filter">
+			Allows to apply a filter to all stations. Only filtered stations are used for
+			clustering.
+		</option>
+		<option name="DBSCAN -> Min Number of Points per Cluster">
+			Minimum number of points needed for a cluster. Only available, if Cluster Algorithm is set to DBSCAN.
+		</option>
+		<option name="DBSCAN -> Max Neighborhood Distance (km)">
+			Maximum radius of the neighborhood to be considered. Only available, if Cluster Algorithm is set to DBSCAN.
+		</option>
+		<option name="k-means -> Number of Clusters">
+			The number of clusters to split the data into. Only available, if Cluster Algorithm is set to k-means.
+		</option>
+	</fullDescription>
+
+	<ports>
+		<inPort index="0" name="Input Data">
+			Input data table. Latitude must be in column "Latitude" and
+			longitude in column "Longitude". Optional column "Clusterable" defines which rows should
+			be clustered.
+		</inPort>
+		<outPort index="0" name="Clustered Data">
+			Clustered data table. Cluster IDs are in column "ClusterID".
+		</outPort>
+	</ports>
+</knimeNode>

@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.bund.bfr.knime.openkrise.util; singleton:=true
+Export-Package: de.bund.bfr.knime.openkrise.util.json
+Bundle-Name: KNIME Tracing Nodes (Util)
+Bundle-Version: 1.1.35.201810261327
+Bundle-ClassPath: .
+Require-Bundle: de.bund.bfr.knime.openkrise,org.apache.commons.math3,o
+ rg.knime.network.core,org.knime.network.base,org.knime.json,com.faste
+ rxml.jackson.core.jackson-core,com.fasterxml.jackson.core.jackson-dat
+ abind,com.github.fge.jackson-coreutils
+Bundle-ManifestVersion: 2
+Bundle-Activator: de.bund.bfr.knime.openkrise.util.Activator
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: German Federal Institute for Risk Assessment (BfR)
+

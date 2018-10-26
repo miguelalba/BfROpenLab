@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.bund.bfr.knime.chart;singleton:=true
+Export-Package: de.bund.bfr.knime.chart
+Bundle-Name: KNIME Chart
+Bundle-Version: 1.1.35.201810261327
+Require-Bundle: de.bund.bfr.knime;visibility:=reexport,org.knime.ext.j
+ freechart;visibility:=reexport,org.knime.ext.svg;visibility:=reexport
+Bundle-ManifestVersion: 2
+Bundle-Activator: de.bund.bfr.knime.chart.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: German Federal Institute for Risk Assessment (BfR)
+

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: nl.esciencecenter.e3dchem.knime.testing
+Export-Package: nl.esciencecenter.e3dchem.knime.testing,nl.esciencecen
+ ter.e3dchem.knime.testing.core.ng
+Bundle-Name: Testing
+Bundle-Version: 1.0.0.20161125
+Require-Bundle: org.knime.core,org.knime.workbench.core,org.knime.work
+ bench.repository,org.knime.testing,org.apache.log4j,org.junit
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+

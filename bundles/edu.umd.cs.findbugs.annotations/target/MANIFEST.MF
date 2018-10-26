@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: edu.umd.cs.findbugs.annotations
+Export-Package: edu.umd.cs.findbugs.annotations
+Bundle-Name: FindBugs Annotation
+Bundle-Version: 3.0.1
+Bundle-ClassPath: lib/annotations.jar
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
